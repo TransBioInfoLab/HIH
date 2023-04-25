@@ -26,7 +26,7 @@ wt.itr <- function(formula, data, pmd.initial,
     if (is.null(names(diag))){id <- 1:ncol(pmd)} else{
       yvar_name=colnames(data)[which(sapply(1:ncol(data),function(i) {
         grepl(colnames(data)[i],as.character(formula)[[2]])})==TRUE)]
-      id <- match(colnames(data[,which(colnames(data)!=yvar_name)]),names(digw))}
+      id <- match(colnames(data[,which(colnames(data)!=yvar_name)]), names(digw))}
     btpmd <- btw[id]; digpmd <- digw[id]
     w <- wt(btpmd,digpmd)
     
