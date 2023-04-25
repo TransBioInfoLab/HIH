@@ -8,7 +8,7 @@ Yifan Sha and Min Lu
 qtlscr.rank(o,data.nm,
             qtlcut=0.95,plot=TRUE)}
 \description{
-This function output the interaction terms of \emph{HIvimp} object by 95th percentile of normalized high order interaction variable importance density estimation. 
+This function output the interaction terms of \emph{HIvimp} object by the 95th percentile of normalized high order interaction variable importance density estimation. 
 }
 \arguments{
 \item{o}{An object of class \emph{HIvimp}.}
